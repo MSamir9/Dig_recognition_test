@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+       color: white;
+        touch-action: none; /*https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action*/
+        font-family: "Roboto";
+        background-color: #564491;
+      }
+      
+      h1 {
+        margin: 20px;
+        color:white;
+        font-size: 30px;
+        text-align: center;
+      }
+      
+
+      
+      #paint {
+        border:3px solid white;
+        margin:auto;
+        text-align:center;
+
+      }
+      #predicted { 
+        font-size: 30px;
+        margin-top: 30px;
+        text-align: center;
+      }
+      #number {
+        border: 3px solid white;
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+        vertical-align: middle;
+      }
+      #clear {
+        color:black;
+        margin: auto;
+        margin-top: 70px;
+        padding: 30px;
+        text-align: center;
+      }
