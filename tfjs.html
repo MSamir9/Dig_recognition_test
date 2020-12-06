@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0NW5Z2MYC"></script>
+    
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -11,36 +10,46 @@
       gtag('config', 'G-H0NW5Z2MYC');
     </script>
     <title>Digit Recognition WebApp</title>
-    <meta name="description" content="Simple Machine Learning Model into an WebApp using TensorFlow.js">
-    <meta name="keywords" content="Machine Learning, TensorFlow.js">
-    <meta name="author" content="Carlos Aguayo">
+    
     <style>
       body {
-        touch-action: none; /*https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action*/
-        font-family: "Roboto";
+        display:-webkit-flex;
+        color:white;
+        /*touch-action: none; /*https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action*/
+        /*font-family: "Roboto";*/
+        background-color: #564491;
       }
+      
       h1 {
-        margin: 50px;
-        font-size: 70px;
-        text-align: center;
+        margin: 20px;
+        color:white;
+        font-size: 30px;
+        text-align: left;
       }
+      
+
+      
       #paint {
-        border:3px solid red;
-        margin: auto;
+        border:3px solid white;
+        margin-right: 100px;
+        margin-top: 30px;
+        text-align:left;
+
       }
       #predicted { 
-        font-size: 60px;
-        margin-top: 60px;
+        font-size: 30px;
+        margin-top: 30px;
         text-align: center;
       }
       #number {
-        border: 3px solid black;
+        border: 3px solid white;
         margin: auto;
         margin-top: 30px;
         text-align: center;
         vertical-align: middle;
       }
       #clear {
+        color:black;
         margin: auto;
         margin-top: 70px;
         padding: 30px;
@@ -52,7 +61,8 @@
     <!--<script type="text/javascript" src="http://livejs.com/live.js"></script>-->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.5.2/dist/tf.min.js"></script>
-    <h1>Digit Recognition WebApp</h1>
+     
+    <h1>Draw your digit here:</h1>
     <div id="paint">
       <canvas id="myCanvas"></canvas>
     </div>
