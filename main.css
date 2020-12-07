@@ -3,7 +3,7 @@ html {
     width: 100%;
 }
 body {
-       color: white;
+       color: black;
         touch-action: none; /*https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action*/
         font-family: "Roboto";
         font-size: 30px;
@@ -12,7 +12,7 @@ body {
       
       h1 {
         margin: 10px;
-        color:black;
+        color:blue;
         font-size: 50px;
         text-align: center;
       }
@@ -22,10 +22,16 @@ body {
         font-size: 30px;
         text-align: center;
         }
+    h3{
+        margin-top: 30px;
+        color:white;
+        font-size: 30px;
+        text-align: center;
+        }
 
       
       #paint {
-        border:3px solid black;
+        border:3px solid blue;
         margin:auto;
         text-align:center;
   
@@ -37,14 +43,14 @@ body {
         text-align: center;
       }
       #number {
-        border: 3px solid black;
+        border: 3px solid blue;
         margin: auto;
         margin-top: 30px;
         text-align: center;
         vertical-align: middle;
       }
       #clear {
-        color:black;
+        color:blue;
         margin: auto;
         margin-top: 30px;
         padding: 30px;
