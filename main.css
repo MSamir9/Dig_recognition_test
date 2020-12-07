@@ -3,11 +3,11 @@ html {
     width: 100%;
 }
 body {
-       color: black;
+       color: white;
         touch-action: none; /*https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action*/
         font-family: "Roboto";
         font-size: 30px;
-        background-color: #564491;
+        background-color: black;
       }
       
       h1 {
