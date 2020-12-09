@@ -47,8 +47,8 @@
       canvas.removeEventListener('mousemove', onPaint, false);
       var img = new Image();
       img.onload = function() {
-        context.drawImage(img, 0, 0, 32, 32);
-        data = context.getImageData(0, 0, 32, 32).data;
+        context.drawImage(img, 0, 0, 28, 28);
+        data = context.getImageData(0, 0, 28, 28).data;
         var input = [];
         for(var i = 0; i < data.length; i += 4) {
           input.push(data[i + 2] / 255);
@@ -89,7 +89,7 @@
 
     var predict = function(input) {
       if (window.model) {
-        window.model.predict([tf.tensor(input).reshape([1, 32, 32, 3])]).array().then(function(scores){
+        window.model.predict([tf.tensor(input).reshape([1, 28, 28, 1])]).array().then(function(scores){
           scores = scores[0];
           predicted = scores.indexOf(Math.max(...scores));
           $('#number').html(predicted);
