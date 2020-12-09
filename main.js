@@ -47,8 +47,8 @@
       canvas.removeEventListener('mousemove', onPaint, false);
       var img = new Image();
       img.onload = function() {
-        context.drawImage(img, 0, 0, 28, 28);
-        data = context.getImageData(0, 0, 28, 28).data;
+        context.drawImage(img, 0, 0, 32, 32);
+        data = context.getImageData(0, 0, 32, 32).data;
         var input = [];
         for(var i = 0; i < data.length; i += 4) {
           input.push(data[i + 2] / 255);
