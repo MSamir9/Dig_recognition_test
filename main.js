@@ -1,5 +1,4 @@
-
-    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     if (isMobile) {
       $('#paint').css({'width': '60%'});
       $('#number').css({'width': '30%', 'font-size': '240px'});
