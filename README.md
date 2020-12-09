@@ -5,8 +5,8 @@ We trained a deep learning model on MNIST dataset for 10 epochs and 32 batches w
 The testing accuracy of this model is 99%.
 
 [INFO] evaluating network...
+              
               precision    recall  f1-score   support
-
         zero       0.99      0.99      0.99      1148
          one       1.00      0.99      0.99      1380
          two       0.99      0.99      0.99      1184
@@ -17,10 +17,10 @@ The testing accuracy of this model is 99%.
        seven       0.99      0.99      0.99      1219
        eight       0.99      0.99      0.99      1166
         nine       0.99      0.98      0.98      1219
-
+        
     accuracy                           0.99     12000
-   macro avg       0.99      0.99      0.99     12000
-weighted avg       0.99      0.99      0.99     12000
+    macro avg       0.99      0.99     0.99     12000
+    weighted avg    0.99      0.99     0.99     12000
 
 ## Model deployment:
 1. Firstly, we convert the model to Tensorflow.js and save it.
