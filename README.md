@@ -24,7 +24,7 @@ The testing accuracy of this model is 99%.
 
 ## Model deployment:
 1. Firstly, we convert the model to Tensorflow.js and save it.
-2. We used the HTML file from https://github.com/carlos-aguayo/carlos-aguayo.github.io to create a webpage, with slight changes in the body and style.
+2. We used the HTML file 'tfjs.html' from https://github.com/carlos-aguayo/carlos-aguayo.github.io to create a webpage for the model, with slight changes in the body and style.
 
 
 ### Try it here: [Digit recognition WebApp](https://msamir9.github.io/Digit_recognition_app/ "Digit recognition webapp")
