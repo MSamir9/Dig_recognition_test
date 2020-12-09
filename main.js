@@ -62,7 +62,7 @@ var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.
       context.stroke();
     };
 
-    tf.loadLayersModel('model/model.json').then(function(model) {
+    await tf.loadLayersModel('model/model.json').then(function(model) {
       window.model = model;
     });
 
@@ -88,7 +88,7 @@ var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.
 
     var predict = function(input) {
       if (window.model) {
-        window.model.predict([tf.tensor(input).reshape([1, 28, 28, 1])]).array().then(function(scores){
+        await window.model.predict([tf.tensor(input).reshape([1, 28, 28, 1])]).array().then(function(scores){
           scores = scores[0];
           predicted = scores.indexOf(Math.max(...scores));
           $('#number').html(predicted);
