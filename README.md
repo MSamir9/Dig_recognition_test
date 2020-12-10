@@ -1,6 +1,6 @@
 # Digit recognition webapp test
 ## Model:
-We trained a deep learning model on MNIST dataset for 10 epochs and 32 batches with 20% validation split.
+We trained a deep learning model on the MNIST dataset for 10 epochs and 32 batches with 20% validation split.
 ## Accuracy:
 The testing accuracy of this model is 99%.
 
