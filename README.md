@@ -29,3 +29,4 @@ The testing accuracy of this model is 99%.
 
 ### Try it here: [Digit recognition WebApp](https://msamir9.github.io/Digit_recognition_app/ "Digit recognition webapp")
 
+Remark: The initial request will take about 3 seconds. Subsequent request will be faster.
