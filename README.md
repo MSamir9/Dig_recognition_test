@@ -23,7 +23,7 @@ The testing accuracy of this model is 99%.
     weighted avg    0.99      0.99     0.99     12000
 
 ## Model deployment:
-1. Firstly, we convert the model to Tensorflow.js and save it.
+1. Firstly, we converted the model to Tensorflow.js and saved it.
 2. We used the HTML file 'tfjs.html' from https://github.com/carlos-aguayo/carlos-aguayo.github.io to create a webpage for the model, with slight changes in the body and style.
 
 
