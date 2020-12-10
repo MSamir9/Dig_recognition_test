@@ -27,7 +27,5 @@ The testing accuracy of this model is 99%.
 2. We used the HTML file 'tfjs.html' from https://github.com/carlos-aguayo/carlos-aguayo.github.io to create a webpage for the model, with slight changes in the body and style.
 
 
-### Try it here: [Digit recognition WebApp](https://msamir9.github.io/Digit_recognition_app/ "Digit recognition webapp")
-
-#### Remark: 
-The initial request will take about 3 seconds. Subsequent requests will be faster.
+### Try it here: [Digit recognition WebApp](https://msamir9.github.io/Digit_recognition_app/ "Digit recognition webapp") 
+(The initial request will take about 3 seconds. Subsequent requests will be faster.)
